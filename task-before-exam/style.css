@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+  }
+
+.section {
+    position: relative;
+      width: 100vw;
+      height: 100vh;
+  }
+
+.sectionOne {
+    background-color: #a68a64;
+}
+
+.sectionTwo {
+    background-color: #414833;
+}
+
+.sectionThree {
+    background-color: #bb3e03;
+}
+
+button {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+
+    width: 200px;
+    height: 60px;
+
+    border: none;
+    border-radius: 30px;
+}
+
+#buttonOne {
+    background-color: #e6ccb2;
+}
+
+#buttonTwo {
+    background-color: #c2c5aa;
+}
+
+#buttonThree {
+    background-color: #e5a593;
+}
