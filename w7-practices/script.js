@@ -1,10 +1,21 @@
 const inputElement = (type, name, label) => {
-    return `
-         <div>
-             <label>${label}</label>
-             <input type="${type}" name="${name}">
-         <div>
-    `
+    if (type === "checkbox") {
+        return `
+        <div class="checkbox">
+            <label for="${name}">${label}</label>
+            <input type="${type}" name="${name}" id="${name}">
+        <div>
+   `
+
+    } else {
+        return `
+        <div>
+            <label for="${name}">${label}</label>
+            <input type="${type}" name="${name}" id="${name}">
+        <div>
+   `
+    }
+
  }
  
  const selectElement = (type, name, label, selectOptions) => {
