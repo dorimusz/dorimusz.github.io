@@ -5,7 +5,6 @@
     outline: none;
     box-sizing: border-box;
   
-    font-family: inherit;
     text-decoration: none;
   }
   
@@ -18,12 +17,6 @@
     color: inherit
   }
   
-  /* button, input, textarea, select {
-    appearance: none !important;
-    -webkit-appearance: none !important;
-    border-radius: 0
-  } */
-
   body {
     background-color: #E6E6E6;
     color: #138073;
@@ -103,11 +96,11 @@
   button {
       background-color: #39B69F;
       color: #fff;
-      border: 2px #fff solid;
+      border: 1.5px #fff solid;
 
       margin-top: 40px;
       height: 70px;
-      width: 60%;
+      width: 55%;
       padding: 20px;
 
 
