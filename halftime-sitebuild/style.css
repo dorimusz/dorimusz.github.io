@@ -25,7 +25,6 @@
   } */
 
   body {
-
     background-color: #E6E6E6;
     color: #138073;
 
@@ -39,15 +38,13 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      
-
   }
 
   h1 {
       font-size: 24px;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      font-weight: 800;
+      font-weight: 900;
   }
 
   form {
@@ -55,6 +52,7 @@
       flex-direction: column;
       text-align: center;
   }
+
   input {
       height: 64px;
       width: 100%;
@@ -73,10 +71,15 @@
   }
 
   #terms {
-      width: 100%;
       display: flex;
       text-align: left;
+      
+      width: 100%;
       margin-top: 25px;
+  }
+
+  #checkboxBox {
+      align-self: center;
   }
 
   #checkbox {
@@ -102,7 +105,7 @@
       color: #fff;
       border: 1px #fff solid;
 
-      margin: 20px;
+      margin-top: 40px;
       height: 64px;
       width: 50%;
       padding: 20px;
@@ -114,7 +117,6 @@
       text-transform: uppercase;
   }
  
-
  @media screen and (max-width: 900px) {
     h1 {
         text-align: right;
@@ -124,6 +126,4 @@
         width: 100%;
         padding: 0 30px;
     }
-
-
   }
