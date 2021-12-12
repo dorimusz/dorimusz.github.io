@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+  
+    font-family: inherit;
+    text-decoration: none;
+  }
+  
+  a img {
+    border: none
+  }
+  
+  button, a {
+    cursor: pointer;
+    color: inherit
+  }
+  
+  /* button, input, textarea, select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    border-radius: 0
+  } */
+
+  body {
+
+    background-color: #E6E6E6;
+    color: #138073;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500; /*medium*/
+  }
+
+  .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+
+  }
+
+  h1 {
+      font-size: 24px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-weight: 800;
+  }
+
+  form {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  input {
+      height: 64px;
+      width: 100%;
+      margin-top: 25px;
+      background-color: #fff;
+      border: solid 1px #808080;
+      text-indent: 20px;
+  }
+
+::placeholder {
+    margin-top: 25px;
+    color: #138073;
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: 500;
+  }
+
+  #terms {
+      width: 100%;
+      display: flex;
+      text-align: left;
+      margin-top: 25px;
+  }
+
+  #checkbox {
+      width: 20px;
+      height: 20px;
+      margin: 0;
+  }
+
+  label {
+    padding-left: 10px;
+  }
+
+  a {
+      text-decoration: underline #39b69f;
+  }
+
+  .button {
+      text-align: center;
+  }
+
+  button {
+      background-color: #39B69F;
+      color: #fff;
+      border: 1px #fff solid;
+
+      margin: 20px;
+      height: 64px;
+      width: 50%;
+      padding: 20px;
+
+
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+  }
+ 
+
+ @media screen and (max-width: 900px) {
+    h1 {
+        text-align: right;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+
+  }
