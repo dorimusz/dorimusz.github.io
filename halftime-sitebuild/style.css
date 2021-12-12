@@ -73,7 +73,7 @@
   #terms {
       display: flex;
       text-align: left;
-      
+
       width: 100%;
       margin-top: 25px;
   }
@@ -103,11 +103,11 @@
   button {
       background-color: #39B69F;
       color: #fff;
-      border: 1px #fff solid;
+      border: 2px #fff solid;
 
       margin-top: 40px;
-      height: 64px;
-      width: 50%;
+      height: 70px;
+      width: 60%;
       padding: 20px;
 
 
