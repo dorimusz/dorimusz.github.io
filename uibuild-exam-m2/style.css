@@ -57,12 +57,14 @@ input {
   height: 64px;
   text-indent: 20px;
   margin-bottom: 20px;
+  color: #467745;
 }
 
 textarea {
   width: 100%;
   height: 120px;
   text-indent: 20px;
+  color: #467745;
 }
 
 .terms {
